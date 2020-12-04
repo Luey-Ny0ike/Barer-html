@@ -1,0 +1,61 @@
+.lp-t{
+  padding-top: 150px !important;
+}
+.lp-title {
+
+}
+.download-icon {
+  max-width: 150px;
+  max-height: 150px;
+}
+.download-icon-apple {
+  max-width: 125px;
+  max-height: 125px;
+}
+.features {
+  padding-bottom: 4rem;
+}
+.feature-card {
+  padding-bottom: 2rem;
+}
+.our-benefits {
+  text-align: left !important;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #FFDDAC;
+  /* margin-left: -46px;
+  margin-right: -46px; */
+}
+.benefits-ul{
+  line-height: 3.5;
+}
+.app-features {
+  background-color: #ADD4E0;
+}
+.footer-custom {
+  text-align: left;
+}
+.footer {
+  padding-top: 50px;
+}
+
+/* HOW IT WORKS PAGE */
+.how-it-works {
+  padding-top: 50px;
+}
+.step {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.to-know {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #ECC0C1;
+}
+
+/* CONDITIONS PAGE */
+.check{
+  /* Vector */
+padding-top: 6px;
+
+}
