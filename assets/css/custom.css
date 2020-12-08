@@ -22,7 +22,7 @@
   text-align: left !important;
   padding-top: 4rem;
   padding-bottom: 4rem;
-  background-color: #FFDDAC;
+  background-color: white;
   /* margin-left: -46px;
   margin-right: -46px; */
 }
@@ -30,7 +30,7 @@
   line-height: 3.5;
 }
 .app-features {
-  background-color: #ADD4E0;
+  background-color: white;
 }
 .footer-custom {
   text-align: left;
@@ -50,7 +50,7 @@
 .to-know {
   padding-top: 4rem;
   padding-bottom: 4rem;
-  background-color: #ECC0C1;
+  background-color: white;
 }
 
 /* CONDITIONS PAGE */
@@ -73,7 +73,7 @@ padding-top: 6px;
 .start-work-with-us {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #ADD4E0;
+  background-color: white;
 }
 .testimonials {
   padding-top: 50px;
