@@ -59,3 +59,35 @@
 padding-top: 6px;
 
 }
+
+/* VETS PAGE */
+.step-c {
+  padding: 50px;
+  text-align: center;
+  background-color: white;
+  font-size: xx-large;
+}
+.step-vet {
+  color: black;
+}
+.start-work-with-us {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ADD4E0;
+}
+.testimonials {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* CONTACT US */
+.contact-us {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* CAREER PAGE */
+.benefits-careers {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
