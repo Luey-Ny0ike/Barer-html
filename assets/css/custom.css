@@ -96,3 +96,9 @@ padding-top: 6px;
 .custom-tabs {
   display: inline-block;
 }
+
+/* BLOGS PAGE */
+.blogs {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
