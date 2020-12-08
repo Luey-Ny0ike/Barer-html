@@ -91,3 +91,8 @@ padding-top: 6px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
+/* LOGIN PAGE */
+.custom-tabs {
+  display: inline-block;
+}
