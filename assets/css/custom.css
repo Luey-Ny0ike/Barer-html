@@ -32,6 +32,10 @@
 .app-features {
   background-color: white;
 }
+.underline {
+  text-decoration: underline;
+  text-underline-position: under;
+}
 .footer-custom {
   text-align: left;
 }
@@ -90,6 +94,12 @@ padding-top: 6px;
 .benefits-careers {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+.jobs {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  width: 96%;
+  margin: 0 auto;
 }
 
 /* LOGIN PAGE */
