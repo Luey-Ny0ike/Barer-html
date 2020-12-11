@@ -1,9 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 body {
   font-family: 'Raleway', sans-serif !important;
+  color: #615e5c !important;
+  background-color: white !important;
+}
+.navbar {
+  color: #615e5c !important;
 }
 .title {
   font-family: 'Raleway', sans-serif !important;
+  color:  #27364B !important;
+}
+.title-blog {
+  color: white !important;
+}
+.subtitle {
+  color: #615e5c !important;
+}
+p {
+  color: #615e5c !important;
 }
 .lp-t{
   padding-top: 150px !important;
