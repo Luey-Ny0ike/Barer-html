@@ -95,7 +95,7 @@
         <div class="container lp-t">
             <div class="row first-part" style="background-image: url('../assets/img/custom/first-1.png')">
 				<div class="col-md-6 col-md-offset-3">
-					<h1 class="title lp-title">Veterinary Care <span class="brush" style="background-image: url('../assets/img/custom/brush-stroke.svg')">...reinvented.</span></h1>
+					<h1 class="title lp-title">Veterinary Care <br> <span class="typed-text brush" style="background-image: url('../assets/img/custom/brush-stroke.svg')"></span><br></h1>
                     <h4 class="subtitle">What it means to be healthy is changing for pets, so are we. Talk to a veterinarian or animal specialist anytime, anywhere by phone or video.</h4>
                     <br /><br><br>
 										<p>Launching soon. Leave your email below to be on our waiting list</p>
@@ -325,6 +325,9 @@
             </div> -->
           </div>
         </div>
+				<div class="container">
+	 <p>Coding is <span class="typed-text brush" style="background-image: url('../assets/img/custom/brush-stroke.svg')"></span><span class="cursor">&nbsp;</span></p>
+ </div>
     </footer>
 
 </body>
@@ -356,4 +359,47 @@
 
 	<!--    Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc    -->
 	<script src="../assets/js/material-kit.js?v=1.3.0" type="text/javascript"></script>
+	<script type="text/javascript">
+	const typedTextSpan = document.querySelector(".typed-text");
+const cursorSpan = document.querySelector(".cursor");
+
+const textArray = ["...reinvented", "...without all the headaches", "...stress free and wallet friendly"];
+const typingDelay = 50;
+const erasingDelay = 100;
+const newTextDelay = 2000; // Delay between current and next text
+let textArrayIndex = 0;
+let charIndex = 0;
+
+function type() {
+if (charIndex < textArray[textArrayIndex].length) {
+	if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+	typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+	charIndex++;
+	setTimeout(type, typingDelay);
+}
+else {
+	cursorSpan.classList.remove("typing");
+	setTimeout(erase, newTextDelay);
+}
+}
+
+function erase() {
+if (charIndex > 0) {
+	if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+	typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex-1);
+	charIndex--;
+	setTimeout(erase, erasingDelay);
+}
+else {
+	cursorSpan.classList.remove("typing");
+	textArrayIndex++;
+	if(textArrayIndex>=textArray.length) textArrayIndex=0;
+	setTimeout(type, typingDelay + 1100);
+}
+}
+
+document.addEventListener("DOMContentLoaded", function() { // On DOM Load initiate the effect
+if(textArray.length) setTimeout(type, newTextDelay + 250);
+});
+	</script>
 </html>
