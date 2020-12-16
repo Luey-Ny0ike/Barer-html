@@ -16,6 +16,9 @@ body {
   padding-left: 50px;
   padding-right: 50px;
 }
+.card-custom-homepage {
+  width: 88% !important;
+}
 
 .title {
   font-family: 'Raleway', sans-serif !important;
@@ -39,6 +42,9 @@ p {
 }
 .lp-t{
   padding-top: 160px !important;
+}
+.cbk {
+  margin-top: 65px;
 }
 .first-part {
   background-position: center;
@@ -73,7 +79,20 @@ p {
 }
 .info-title {
   color: #3C4858 !important;
+  font-family: 'Raleway', sans-serif !important;
   margin: 30px 0 15px;
+}
+.card-one {
+  background-color: #f8be52;
+}
+.card-two {
+  background-color: rgb(124, 188, 68);
+}
+.card-three {
+  background-color: #82c5dc;
+}
+.card-four {
+  background-color: rgb(243, 93, 34);
 }
 .card-icon {
   width: 70px !important;
@@ -81,6 +100,7 @@ p {
   margin-left: 5px;
 }
 .card-content-custom {
+  color: white !important;
   padding-left: 8px;
   padding-right: 8px;
 }
