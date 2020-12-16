@@ -79,20 +79,20 @@ p {
 }
 .info-title {
   color: #3C4858 !important;
-  font-family: 'Raleway', sans-serif !important;
   margin: 30px 0 15px;
 }
 .card-one {
   background-color: #f8be52;
 }
 .card-two {
-  background-color: rgb(124, 188, 68);
+  background-color: rgb(243, 93, 34);
 }
 .card-three {
   background-color: #82c5dc;
 }
 .card-four {
-  background-color: rgb(243, 93, 34);
+  background-color: rgb(124, 188, 68);
+
 }
 .card-icon {
   width: 70px !important;
