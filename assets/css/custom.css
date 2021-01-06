@@ -3,6 +3,7 @@ body {
   font-family: 'Raleway', sans-serif !important;
   color: #615e5c !important;
   background-color: white !important;
+  overflow-x: hidden;
 }
 .navbar {
   color: #615e5c !important;
@@ -228,6 +229,12 @@ padding-top: 6px;
 }
 
 /* LOGIN PAGE */
+.login-page {
+  background-color: #eee;
+}
+.social-login-header {
+
+}
 .custom-tabs {
   display: inline-block;
 }
@@ -236,4 +243,39 @@ padding-top: 6px;
 .blogs {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.blog-tags {
+  margin-top: 18px;
+}
+
+/* CORRECTIONS */
+.bz {
+  margin-bottom: 14px;
+  color: #9c27b0 !important;
+}
+.footer-logo {
+  padding-bottom: 18px;
+}
+.box-content {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+}
+.step-image {
+  max-height: 250px;
+  width: auto;
+  margin: 0 auto;
+}
+.call-to-action {
+  margin-top: 40px;
+  background-color: #eee;
+}
+.call-to-action-link {
+  color: #27364B !important;
+}
+.call-to-action-app {
+  margin-top: 40px;
+}
+.pricing-illustrations {
+  margin-left: 15px !important;
 }
