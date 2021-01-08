@@ -32,7 +32,7 @@ var big_image;
      window_width = $(window).width();
 
      $navbar = $('.navbar[color-on-scroll]');
-     scroll_distance = $navbar.attr('color-on-scroll') || 500;
+     scroll_distance = $navbar.attr('color-on-scroll') || 100;
 
      $navbar_collapse = $('.navbar').find('.navbar-collapse');
 
