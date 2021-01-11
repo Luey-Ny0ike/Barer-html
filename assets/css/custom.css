@@ -164,6 +164,9 @@ p {
 .underline {
   text-decoration: underline;
   text-underline-position: under;
+  font-family: 'Raleway', sans-serif !important;
+  font-weight: 700;
+
 }
 .footer-custom {
   text-align: left;
@@ -279,6 +282,7 @@ padding-top: 6px;
 }
 .call-to-action-link {
   color: #27364B !important;
+  font-weight: 700;
 }
 .call-to-action-app {
   margin-top: 40px;
