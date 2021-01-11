@@ -111,6 +111,9 @@ p {
 .feature-card {
   padding-bottom: 2rem;
 }
+.ft-c {
+    box-shadow:  0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
 .feature{
   padding: 0;
   display: flex;
@@ -272,6 +275,7 @@ padding-top: 6px;
 .call-to-action {
   margin-top: 40px;
   background-color: #eee;
+  padding-bottom: 25px;
 }
 .call-to-action-link {
   color: #27364B !important;
